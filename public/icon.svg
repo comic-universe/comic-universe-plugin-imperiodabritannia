@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" fill="none">
+  <defs>
+    <linearGradient id="shield" x1="55" y1="32" x2="263" y2="290" gradientUnits="userSpaceOnUse"><stop stop-color="#7655B9"/><stop offset="1" stop-color="#21163F"/></linearGradient>
+    <linearGradient id="gold" x1="91" y1="50" x2="230" y2="250" gradientUnits="userSpaceOnUse"><stop stop-color="#FFF0A3"/><stop offset="1" stop-color="#E4A91D"/></linearGradient>
+  </defs>
+  <circle cx="160" cy="160" r="151" fill="#101028" stroke="#E9B82D" stroke-width="8"/>
+  <path d="M160 39 256 78v75c0 62-39 103-96 132-57-29-96-70-96-132V78l96-39Z" fill="url(#shield)" stroke="url(#gold)" stroke-width="8" stroke-linejoin="round"/>
+  <path d="m105 119 15-42 40 31 40-31 15 42-16 7v17H121v-17l-16-7Z" fill="url(#gold)" stroke="#261A3D" stroke-width="6" stroke-linejoin="round"/>
+  <circle cx="120" cy="77" r="8" fill="#FFF4B8"/><circle cx="160" cy="108" r="8" fill="#FFF4B8"/><circle cx="200" cy="77" r="8" fill="#FFF4B8"/>
+  <path d="M112 160h96M112 238h96" stroke="#E9B82D" stroke-width="5" stroke-linecap="round"/>
+  <text x="160" y="222" fill="#FFF4D0" font-family="Georgia,serif" font-size="65" font-weight="700" text-anchor="middle">IB</text>
+</svg>
