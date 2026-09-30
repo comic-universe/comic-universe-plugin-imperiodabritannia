@@ -4,7 +4,7 @@ HTTP API plugin for the Portuguese comic catalog at [imperiodabritannia.net](htt
 
 The project includes an install landing page with the Comic Universe deep link, a list of API routes, a starfield background, and Swagger documentation at `/swagger`.
 
-Supports comic search, catalog listing, details, chapters, and on-demand reader page discovery. The site is currently blocked from direct requests in some environments and its HTML may change; this plugin parses its public HTML page markup.
+Supports comic search, catalog listing, details, chapters, and on-demand reader page discovery through Imperio da Britannia's public JSON API. The site API uses encrypted responses by default; the plugin requests the site's documented public plaintext response mode.
 
 ## Run locally
 
