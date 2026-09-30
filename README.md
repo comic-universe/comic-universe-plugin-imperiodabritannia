@@ -1,0 +1,20 @@
+# Comic Universe Plugin: Imperio da Britannia
+
+HTTP API plugin for the Portuguese comic catalog at [imperiodabritannia.net](https://imperiodabritannia.net/).
+
+Supports comic search, catalog listing, details, chapters, and on-demand reader page discovery. The site is currently blocked from direct requests in some environments and its HTML may change; this plugin parses its public HTML page markup.
+
+## Run locally
+
+```sh
+npm install
+npm run dev
+```
+
+## Install in Comic Universe
+
+```text
+comic-universe-tauri://plugin/install?url=<PLUGIN_BASE_URL>/api&metadataUrl=<PLUGIN_BASE_URL>/api/metadata&name=Imperio%20da%20Britannia&tag=imperiodabritannia
+```
+
+Endpoints: `POST /api/getList`, `POST /api/search` (`{ "search": "..." }`), `POST /api/getDetails`, `POST /api/getChapters`, `POST /api/getPages`, and `GET /api/metadata`.
